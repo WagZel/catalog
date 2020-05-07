@@ -13,7 +13,7 @@
 Method: **GET** \
 ***${appUrl}/product***
 
-#####Params:
+##### Params:
 *sectionId* - section id (type: uuid, required: false)  \
 *name* - product name (type: string, required: false, substr, case-sensitive) \
 *minPrice* - product minimum price (type: double, required: false) \
@@ -26,7 +26,7 @@ with pagination
 Method: **GET** \
 ***${appUrl}/product/${id}***
 
-#####Path variables:
+##### Path variables:
 *id* - product id (type: uuid, required: true)  \
 
 #### Create/Update product
@@ -34,7 +34,7 @@ Method: **GET** \
 Method: **POST** \
 ***${appUrl}/product***
 
-#####Body:
+##### Body:
 ```json
 {
   "name": "Product name",
@@ -48,7 +48,7 @@ Method: **POST** \
 Method: **DELETE** \
 ***${appUrl}/product/${id}***
                     
-#####Path variables:
+##### Path variables:
 *id* - product id (type: uuid, required: true)  \
 
 #### Get sections
@@ -56,7 +56,7 @@ Method: **DELETE** \
 Method: **GET** \
 ***${appUrl}/section***
 
-#####Params:
+##### Params:
 *parentId* - parent section id (type: uuid, required: true)
 
 without pagination
@@ -66,7 +66,7 @@ without pagination
 Method: **GET** \
 ***${appUrl}/section/${id}***
 
-#####Path variables:
+##### Path variables:
 *id* - section id (type: uuid, required: true)  \
 
 #### Create/Update section
@@ -74,7 +74,7 @@ Method: **GET** \
 Method: **POST** \
 ***${appUrl}/section***
 
-#####Body:
+##### Body:
 ```json
 {
   "name": "Section name",
@@ -87,7 +87,7 @@ Method: **POST** \
 Method: **DELETE** \
 ***${appUrl}/section/${id}***
                     
-#####Path variables:
+##### Path variables:
 *id* - section id (type: uuid, required: true)  \
 
 cascade delete all dependent products
