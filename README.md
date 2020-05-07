@@ -1,5 +1,5 @@
 # Catalog app
-### System Environments
+## System Environments
 
 | Name | Description |
 | --- | --- |
@@ -7,8 +7,8 @@
 |DB_PASSWORD|Postgres password|
 |DB_URL|Postgres db url|
 
-### API
-#### Get products
+## API
+### Get products
 
 Method: **GET** \
 ***${appUrl}/product***
@@ -21,7 +21,7 @@ Method: **GET** \
 
 with pagination
 
-#### Get product
+### Get product
 
 Method: **GET** \
 ***${appUrl}/product/${id}***
@@ -29,7 +29,7 @@ Method: **GET** \
 **Path variables:** \
 *id* - product id (type: uuid, required: true)  \
 
-#### Create/Update product
+### Create/Update product
 
 Method: **POST** \
 ***${appUrl}/product***
@@ -43,7 +43,7 @@ Method: **POST** \
 }
 ```
 
-#### Delete product
+### Delete product
 
 Method: **DELETE** \
 ***${appUrl}/product/${id}***
@@ -51,7 +51,7 @@ Method: **DELETE** \
 **Path variables:** \
 *id* - product id (type: uuid, required: true)  \
 
-#### Get sections
+### Get sections
 
 Method: **GET** \
 ***${appUrl}/section***
@@ -61,7 +61,7 @@ Method: **GET** \
 
 without pagination
 
-#### Get section
+### Get section
 
 Method: **GET** \
 ***${appUrl}/section/${id}***
@@ -69,7 +69,7 @@ Method: **GET** \
 **Path variables:** \
 *id* - section id (type: uuid, required: true)  \
 
-#### Create/Update section
+### Create/Update section
 
 Method: **POST** \
 ***${appUrl}/section***
@@ -78,11 +78,11 @@ Method: **POST** \
 ```json
 {
   "name": "Section name",
-  "parentId": "67dc04a3-ab10-4136-8a24-ec615cf7a3fe" // required - false
+  "parentId": "67dc04a3-ab10-4136-8a24-ec615cf7a3fe"
 }
 ```
 
-#### Delete section
+### Delete section
 
 Method: **DELETE** \
 ***${appUrl}/section/${id}***
