@@ -1,12 +1,12 @@
-package com.playershealth.repository.impl;
+package com.waggi.repository.impl;
 
 import static java.util.Objects.nonNull;
 import static java.util.stream.Collectors.toList;
 import static org.apache.commons.lang3.StringUtils.isNotBlank;
 
-import com.playershealth.model.Product;
-import com.playershealth.repository.CriteriaProductRepository;
-import com.playershealth.repository.model.ProductFilter;
+import com.waggi.model.Product;
+import com.waggi.repository.CriteriaProductRepository;
+import com.waggi.repository.model.ProductFilter;
 import java.util.ArrayList;
 import javax.persistence.EntityManager;
 import javax.persistence.criteria.Predicate;

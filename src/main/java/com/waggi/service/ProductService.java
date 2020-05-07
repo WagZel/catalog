@@ -1,8 +1,8 @@
-package com.playershealth.service;
+package com.waggi.service;
 
-import com.playershealth.model.Product;
-import com.playershealth.repository.ProductRepository;
-import com.playershealth.repository.model.ProductFilter;
+import com.waggi.model.Product;
+import com.waggi.repository.ProductRepository;
+import com.waggi.repository.model.ProductFilter;
 import java.util.Optional;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;

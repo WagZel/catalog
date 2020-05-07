@@ -1,6 +1,6 @@
-package com.playershealth.repository;
+package com.waggi.repository;
 
-import com.playershealth.model.Section;
+import com.waggi.model.Section;
 import java.util.List;
 import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;

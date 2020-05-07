@@ -1,4 +1,4 @@
-package com.playershealth.model;
+package com.waggi.model;
 
 import java.util.Date;
 import java.util.UUID;
@@ -16,13 +16,13 @@ import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.Type;
 
 @Table(
-    name = "section",
-    indexes = {@Index(name = "idx_section_parent_id_1", columnList = "parent_id")})
+    name = "product",
+    indexes = {@Index(name = "idx_product_section_id_1", columnList = "section_id")})
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Section {
+public class Product {
 
   @Id
   @GeneratedValue(generator = "UUID")
@@ -31,11 +31,13 @@ public class Section {
   @Column(nullable = false, unique = true)
   private UUID id;
 
-  @Column(unique = true, nullable = false)
+  @Column(nullable = false)
   private String name;
 
-  @Column(name = "parent_id")
-  private UUID parentId;
+  @Column private Double price;
+
+  @Column(name = "section_id", nullable = false)
+  private UUID sectionId;
 
   @CreationTimestamp private Date timestamp;
 }

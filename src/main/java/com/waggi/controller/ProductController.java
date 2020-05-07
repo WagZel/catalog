@@ -1,10 +1,10 @@
-package com.playershealth.controller;
+package com.waggi.controller;
 
 import static org.springframework.http.ResponseEntity.ok;
 
-import com.playershealth.model.Product;
-import com.playershealth.repository.model.ProductFilter;
-import com.playershealth.service.ProductService;
+import com.waggi.model.Product;
+import com.waggi.repository.model.ProductFilter;
+import com.waggi.service.ProductService;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;

@@ -1,9 +1,9 @@
-package com.playershealth.controller;
+package com.waggi.controller;
 
 import static org.springframework.http.ResponseEntity.ok;
 
-import com.playershealth.model.Section;
-import com.playershealth.service.SectionService;
+import com.waggi.model.Section;
+import com.waggi.service.SectionService;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

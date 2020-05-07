@@ -1,4 +1,4 @@
-package com.playershealth.repository.model;
+package com.waggi.repository.model;
 
 import java.util.UUID;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.playershealth;
+package com.waggi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

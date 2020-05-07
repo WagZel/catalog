@@ -1,7 +1,7 @@
-package com.playershealth.repository;
+package com.waggi.repository;
 
-import com.playershealth.model.Product;
-import com.playershealth.repository.model.ProductFilter;
+import com.waggi.model.Product;
+import com.waggi.repository.model.ProductFilter;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

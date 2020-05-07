@@ -1,7 +1,7 @@
-package com.playershealth.service;
+package com.waggi.service;
 
-import com.playershealth.model.Section;
-import com.playershealth.repository.SectionRepository;
+import com.waggi.model.Section;
+import com.waggi.repository.SectionRepository;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
